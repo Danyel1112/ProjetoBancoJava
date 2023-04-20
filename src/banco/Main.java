@@ -10,12 +10,14 @@ public class Main extends Banco {
 		boolean continuar = true;
 
 		while (continuar) {
+			System.out.println("------------------------------------------");
 			System.out.println("Deseja realizar qual operação?");
 			System.out.println("1 - Sacar");
 			System.out.println("2 - Depositar");
 			System.out.println("3 - Ver Saldo");
 			System.out.println("4 - Sair");
 			System.out.println("Seu saldo atual: " + banco.getSaldo());
+			System.out.println("------------------------------------------");
 
 			int opcao = leitura.nextInt();
 
